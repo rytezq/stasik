@@ -10,6 +10,11 @@ namespace st2
     {
         static void Main(string[] args)
         {
+
         }
+    }
+    class Student
+    {
+        public string 
     }
 }
