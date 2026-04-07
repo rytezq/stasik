@@ -50,12 +50,6 @@ namespace dop
             PizzaOrder.PrintStatistics();
 
             Console.WriteLine();
-            Console.WriteLine("«««Попытка установить скидку 50%»»»");
-            PizzaOrder.SetDiscount(50);
-            Console.WriteLine($"Текущая скидка: {PizzaOrder.discountPercent}%");
-            Console.WriteLine();
-            Console.WriteLine("Нажмите любую клавишу для выхода...");
-            Console.ReadKey();
         }
     }
     class PizzaOrder
@@ -67,7 +61,7 @@ namespace dop
   
         public static double totalRevenue = 0;
         public static int totalPizzasSold = 0;
-        public static string shopName = "Пиццерия";
+        public static string shopName = "Нету";
         public static double discountPercent = 0;
 
         public PizzaOrder()
